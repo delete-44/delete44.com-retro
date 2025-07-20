@@ -12,9 +12,9 @@
 }
 
 @font-face {
- font-family: 'TimesNewPixel';
+ font-family: 'iso8';
  font-display: 'swap';
- src: url(./public/TimesNewPixel.ttf) format('truetype');
+ src: url(./public/iso8.ttf) format('truetype');
 }
 
 /* ------------ Base styles ------------ */
@@ -33,8 +33,7 @@ a {
 }
 
 a {
-  font-size: var(--font-size-lg);
-  font-family: 'TimesNewPixel', sans-serif;
+  font-family: 'iso8', sans-serif;
 }
 
 p,
@@ -53,7 +52,7 @@ footer {
 }
 
 .pixel-heading {
-  font-family: 'TimesNewPixel', sans-serif;
+  font-family: 'iso8', sans-serif;
   font-size: var(--font-size-monolith);
   line-height: var(--font-size-monolith);
   text-transform: uppercase;
@@ -82,12 +81,9 @@ footer {
 }
 
 @media (max-width: 600px) {
-  a {
-    font-size: var(--font-size-md);
-  }
-
   p,
-  li {
+  li,
+  a {
     font-size: var(--font-size-sm);
   }
 }
