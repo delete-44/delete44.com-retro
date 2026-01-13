@@ -16,4 +16,4 @@ everything managed by netlify <3
 
 ## Production site
 
-https://delete44-retro.netlify.app/ (for now!)
+https://delete44.com/
