@@ -1,13 +1,7 @@
-/* ------------ Root config ------------ */
-
 :root {
   --font-size-sm: 1.2rem;
   --font-size-md: 1.4rem;
   --font-size-lg: 1.8rem;
-
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 2rem;
 }
 
 @font-face {
@@ -17,6 +11,7 @@
 }
 
 /* ------------ Base styles ------------ */
+
 html {
   background-color: #111111;
   line-height: 1.6;
@@ -30,6 +25,12 @@ h2 {
   font-size: var(--font-size-md);
 }
 
+p,
+li {
+  font-size: var(--font-size-sm);
+  color: white;
+}
+
 h1,
 h2,
 a {
@@ -40,11 +41,7 @@ a {
   font-family: "iso8", sans-serif;
 }
 
-p,
-li {
-  color: white;
-  font-size: var(--font-size-sm);
-}
+/* ------------ Layout ------------ */
 
 .body-layout {
   display: flex;
@@ -52,6 +49,7 @@ li {
 }
 
 footer {
+  /* i.e, to fit two columns of 88x31 buttons */
   width: 190px;
 }
 
